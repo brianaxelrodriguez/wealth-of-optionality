@@ -1,0 +1,11 @@
+{
+  "status": "simulation-only predictive diagnostic",
+  "target": "exit_count > 0 at t predicted from lagged state at t-1",
+  "n": 2940,
+  "positive_rate": 0.8462585034013606,
+  "grouped_cv": "GroupKFold by seed; 5 folds",
+  "auc_oof": 0.7540023973479782,
+  "brier_oof": 0.20558909693151137,
+  "log_loss_oof": 0.5856346810879529,
+  "interpretation": "Not causal; synthetic outcomes; grouped out-of-fold predictions prevent the same seed from appearing in train and test folds."
+}

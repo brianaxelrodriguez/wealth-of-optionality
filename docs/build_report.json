@@ -1,0 +1,40 @@
+{
+  "project_name": "The Wealth of Optionality",
+  "repository_language": "English primary; Spanish manuscript maintained as a parallel edition",
+  "manuscript_pages": {
+    "english": 23,
+    "spanish": 25
+  },
+  "unit_tests": "11 passed",
+  "latex": "Three-pass compilation per language; no unresolved citations/references, no fatal errors, and no overfull hbox warnings in final logs",
+  "data_audit": {
+    "source_files_identical": true,
+    "source_sha256_argentina": "98d1a4678cc96b19ef3639775b7706dc9f027a366395e25f6b1aaa9ca3f81622",
+    "audited_rows": 537,
+    "audited_tickers": 52,
+    "panel_rows": 6188,
+    "panel_economies": 182,
+    "panel_year_min": 1990,
+    "panel_year_max": 2023,
+    "audit_summary_consistent_with_source": true,
+    "interpretation": "Integrity and descriptive checks only; no causal or structural identification."
+  },
+  "abm": {
+    "production_constraint": "Realized sales are scaled by the share of planned intermediate inputs financed before production.",
+    "scope": "Stylized proportional quantity constraint; inventories, complementary inputs, capacity utilization, and input prices are not fully modeled.",
+    "dynamic_calibration": "Unsuccessful; after 24 periods, median runway is about 305.95 days and P90 about 995.17 days in the current diagnostic."
+  },
+  "claim_status": "Conditional analytical results; descriptive data; no causal estimate, global bifurcation certification, or exact micro-macro closure claim for the full economic model.",
+  "source_archive_audit": "320 archive entries inventoried; 201 text/data/code files scanned; 13 notebooks inventoried.",
+  "sha256_manifest": "SHA256SUMS.csv",
+  "theoretical_closure": "Conditional distributional closure theorem under complete-state Markov sufficiency; no finite-dimensional moment closure claimed for the full economic model.",
+  "release": "V3",
+  "year": 2026,
+  "english_pdf_pages": 23,
+  "spanish_pdf_pages": 25,
+  "pytest": "11 passed",
+  "empirical_pwt_wdi_section_removed": true,
+  "abm_boundary_search_framing": true,
+  "staggered_did_protocol_added": true,
+  "conventional_panel_regression_template_removed": true
+}

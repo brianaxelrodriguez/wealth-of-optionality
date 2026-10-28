@@ -1,0 +1,249 @@
+{
+  "source": "data/raw/liquidez_corporativa_ARG_Argentina.csv",
+  "source_sha256": "98d1a4678cc96b19ef3639775b7706dc9f027a366395e25f6b1aaa9ca3f81622",
+  "source_zip_testzip": null,
+  "zip_members": [
+    "liquidez_corporativa_ARG_Argentina.csv",
+    "liquidez_corporativa_TODOS_LOS_PAISES.csv"
+  ],
+  "csv_files_identical": true,
+  "consolidated_csv_equals_argentina_csv": true,
+  "rows": 537,
+  "unique_tickers": 52,
+  "countries": [
+    "Argentina"
+  ],
+  "iso3": [
+    "ARG"
+  ],
+  "frequencies": {
+    "quarterly": 297,
+    "annual": 240
+  },
+  "date_min": "2021-10-31",
+  "date_max": "2026-08-31",
+  "years_by_frequency": {
+    "annual": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "quarterly": [
+      2025,
+      2026
+    ]
+  },
+  "currencies": {
+    "ARS": 526,
+    "USD": 11
+  },
+  "sectors": {
+    "Industrials": 109,
+    "Financial Services": 83,
+    "Utilities": 74,
+    "Consumer Defensive": 73,
+    "Basic Materials": 57,
+    "Energy": 44,
+    "Communication Services": 32,
+    "Consumer Cyclical": 31,
+    "Technology": 23,
+    "Healthcare": 11
+  },
+  "duplicate_ticker_frequency_date_keys": 0,
+  "key_missing_count_distribution": {
+    "0": 343,
+    "1": 104,
+    "2": 2,
+    "3": 5,
+    "4": 6,
+    "5": 16,
+    "6": 61
+  },
+  "flags": {
+    "flag_runway_mayor_3650": 1,
+    "flag_runway_negativo": 0,
+    "flag_dso_mayor_365": 0,
+    "flag_dpo_mayor_365": 10,
+    "es_sector_financiero": 83,
+    "flag_faltan_variables_clave": 194,
+    "flag_posible_periodo_2026": 114
+  },
+  "summary_by_group": {
+    "annual_all_sectors": {
+      "rows": 240,
+      "firms": 52,
+      "metrics": {
+        "runway_liquidez_dias": {
+          "n": 181,
+          "median": 26.70538356433558,
+          "p10": 4.648298801065522,
+          "p90": 122.1752881803349,
+          "max": 4356.571230123972
+        },
+        "runway_liquidez_ampliado_dias": {
+          "n": 181,
+          "median": 45.34774174686571,
+          "p10": 11.753142868585018,
+          "p90": 232.65935177755296,
+          "max": 7787.871665572935
+        },
+        "plazo_cobro_dso_dias": {
+          "n": 201,
+          "median": 35.73229839617907,
+          "p10": 13.126983094718671,
+          "p90": 91.34264826886252,
+          "max": 333.9629165882997
+        },
+        "plazo_pago_dpo_dias": {
+          "n": 181,
+          "median": 61.80311043888938,
+          "p10": 22.297871978543853,
+          "p90": 183.1289053021294,
+          "max": 6763.457115019814
+        },
+        "brecha_cobro_menos_pago_dias": {
+          "n": 177,
+          "median": -21.95159826820772,
+          "p10": -120.6265015213625,
+          "p90": 29.204092947955953,
+          "max": 112.72476489880574
+        }
+      }
+    },
+    "annual_nonfinancial_only": {
+      "rows": 203,
+      "firms": 44,
+      "metrics": {
+        "runway_liquidez_dias": {
+          "n": 173,
+          "median": 25.37109618453192,
+          "p10": 4.4268015489853,
+          "p90": 93.48611259026195,
+          "max": 980.214297342427
+        },
+        "runway_liquidez_ampliado_dias": {
+          "n": 173,
+          "median": 44.23486129855906,
+          "p10": 11.543465158005041,
+          "p90": 198.37653716544202,
+          "max": 980.214297342427
+        },
+        "plazo_cobro_dso_dias": {
+          "n": 173,
+          "median": 36.88502294853909,
+          "p10": 14.369444842080537,
+          "p90": 94.8604745525624,
+          "max": 333.9629165882997
+        },
+        "plazo_pago_dpo_dias": {
+          "n": 173,
+          "median": 61.80311043888938,
+          "p10": 23.41715049250317,
+          "p90": 171.88019175723588,
+          "max": 469.0012682286307
+        },
+        "brecha_cobro_menos_pago_dias": {
+          "n": 173,
+          "median": -21.38120968356489,
+          "p10": -108.60125788988857,
+          "p90": 29.205402384241346,
+          "max": 112.72476489880574
+        }
+      }
+    },
+    "quarterly_all_sectors": {
+      "rows": 297,
+      "firms": 51,
+      "metrics": {
+        "runway_liquidez_dias": {
+          "n": 218,
+          "median": 24.114926978021025,
+          "p10": 3.6611140229168586,
+          "p90": 116.06615186682691,
+          "max": 3543.87866120059
+        },
+        "runway_liquidez_ampliado_dias": {
+          "n": 218,
+          "median": 42.94060431956326,
+          "p10": 6.825395755522907,
+          "p90": 209.10780380660995,
+          "max": 6233.6513018723
+        },
+        "plazo_cobro_dso_dias": {
+          "n": 235,
+          "median": 36.19638887360216,
+          "p10": 18.075067663721427,
+          "p90": 90.22402992696217,
+          "max": 210.60864484101612
+        },
+        "plazo_pago_dpo_dias": {
+          "n": 218,
+          "median": 58.346647382867694,
+          "p10": 24.042740427637757,
+          "p90": 172.28916884087957,
+          "max": 5037.875409611688
+        },
+        "brecha_cobro_menos_pago_dias": {
+          "n": 211,
+          "median": -17.24420226763756,
+          "p10": -130.98095877913747,
+          "p90": 22.61959814242752,
+          "max": 122.46315259688826
+        }
+      }
+    },
+    "quarterly_nonfinancial_only": {
+      "rows": 251,
+      "firms": 43,
+      "metrics": {
+        "runway_liquidez_dias": {
+          "n": 208,
+          "median": 22.479573405153204,
+          "p10": 3.6385970020075846,
+          "p90": 85.87430525519983,
+          "max": 239.2683471854554
+        },
+        "runway_liquidez_ampliado_dias": {
+          "n": 208,
+          "median": 39.2724727265861,
+          "p10": 6.722265024398447,
+          "p90": 171.77018227275852,
+          "max": 682.00157232327
+        },
+        "plazo_cobro_dso_dias": {
+          "n": 206,
+          "median": 38.40532354515814,
+          "p10": 19.033335085047167,
+          "p90": 91.9041008450869,
+          "max": 210.60864484101612
+        },
+        "plazo_pago_dpo_dias": {
+          "n": 208,
+          "median": 56.409125749872196,
+          "p10": 23.396860759837566,
+          "p90": 159.47304495487094,
+          "max": 363.0576994749728
+        },
+        "brecha_cobro_menos_pago_dias": {
+          "n": 206,
+          "median": -16.252421809974003,
+          "p10": -101.53530134287675,
+          "p90": 23.114832792251867,
+          "max": 122.46315259688826
+        }
+      }
+    }
+  },
+  "interpretation": [
+    "El archivo consolidado no amplía la cobertura: es idéntico al CSV argentino.",
+    "El resultado entregado contiene solo Argentina; no es un panel multi-país.",
+    "Las empresas cotizadas son una muestra seleccionada y no representativa de todas las firmas.",
+    "Los ratios heredados son descriptivos; no se observa exposición a pagos públicos ni relaciones proveedor-cliente.",
+    "Las medianas son por fila y no ponderadas; empresas con más informes pesan más.",
+    "La cobertura de 2026 es parcial y las frecuencias anual/trimestral se solapan en fechas; no deben apilarse como observaciones independientes.",
+    "El DPO es especialmente frágil para entidades financieras y cuando la partida de cuentas por pagar se mapea a una partida no corriente."
+  ]
+}

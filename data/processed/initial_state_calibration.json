@@ -1,0 +1,96 @@
+{
+  "status": "initial_state_calibration_only",
+  "data_source": "data/processed/audited_listed_firm_liquidity.csv",
+  "target_definition": "latest positive annual accounting cash-runway observation per non-financial listed ticker; one row per ticker",
+  "target_n_firms": 44,
+  "target_runway_quantiles_days": {
+    "p10": 4.766686424238717,
+    "p25": 13.197082723512297,
+    "p50": 22.896770233074257,
+    "p75": 45.189094634260066,
+    "p90": 105.54847003378184,
+    "n": 44
+  },
+  "estimated_initial_state_parameters": {
+    "initial_cash_scale": 0.7995850403422166,
+    "cash_dispersion": 3.1438271604938266,
+    "interpretation": "minimum-distance fit to p10, p50 and p90 of accounting cash runway"
+  },
+  "initial_state_fit_quantiles_days": {
+    "p10": 4.3865601700311,
+    "p25": 10.147720645309295,
+    "p50": 28.65849045388552,
+    "p75": 62.013512009025774,
+    "p90": 91.63583670158029
+  },
+  "initial_state_log_quantile_loss": 0.025755125379698634,
+  "dynamic_parameters_held_at_scenario_values": {
+    "credit_scale": 1.0,
+    "operating_cost_scale": 1.0,
+    "wage_share": 0.63,
+    "payment_delay_periods": 2,
+    "substitutability": 0.5,
+    "government_channel": true,
+    "period_days_normalization": 91.25
+  },
+  "dynamic_24_period_diagnostic_not_fitted": {
+    "runway_quantiles_days": {
+      "p10": 0.0,
+      "p25": 62.352025193250725,
+      "p50": 305.9506360524796,
+      "p75": 572.3864051618004,
+      "p90": 995.1664601000577,
+      "n": 171
+    },
+    "final_population_counts_by_seed": [
+      23,
+      17,
+      17,
+      18,
+      17,
+      16,
+      17,
+      13,
+      15,
+      18
+    ],
+    "initial_cohort_share_in_final_population_by_seed": [
+      0.7391304347826086,
+      0.8823529411764706,
+      0.8235294117647058,
+      0.8333333333333334,
+      0.8823529411764706,
+      0.875,
+      0.8235294117647058,
+      0.6923076923076923,
+      0.8666666666666667,
+      0.8333333333333334
+    ]
+  },
+  "not_fitted_holdout_moments": {
+    "DSO_days": {
+      "p10": 14.369444842080537,
+      "p25": 25.71014385211496,
+      "p50": 36.88502294853909,
+      "p75": 60.06108025293322,
+      "p90": 94.8604745525624,
+      "n": 173
+    },
+    "DPO_days": {
+      "p10": 23.41715049250317,
+      "p25": 39.141138875895074,
+      "p50": 61.80311043888938,
+      "p75": 94.23703470732848,
+      "p90": 171.88019175723588,
+      "n": 173
+    }
+  },
+  "interpretation": [
+    "The initial cash-runway distribution can be matched with two initial-state parameters.",
+    "This is not structural estimation: the observed sample is a selected cross-section of listed firms.",
+    "Dynamic parameters are not identified by these data and remain scenario values.",
+    "The 24-period diagnostic shows whether the calibrated initial distribution survives the current model dynamics; it is not used to retune parameters.",
+    "DSO/DPO are not fitted because the ABM lacks comparable stocks of total trade receivables and trade payables.",
+    "The quarterly-to-day conversion (91.25 days) is a normalization, not an observed time-unit identification."
+  ]
+}

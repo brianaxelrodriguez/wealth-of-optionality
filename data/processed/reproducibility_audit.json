@@ -1,0 +1,12 @@
+{
+  "source_files_identical": true,
+  "source_sha256_argentina": "98d1a4678cc96b19ef3639775b7706dc9f027a366395e25f6b1aaa9ca3f81622",
+  "audited_rows": 537,
+  "audited_tickers": 52,
+  "panel_rows": 6188,
+  "panel_economies": 182,
+  "panel_year_min": 1990,
+  "panel_year_max": 2023,
+  "audit_summary_consistent_with_source": true,
+  "interpretation": "Integrity and descriptive checks only; no causal or structural identification."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "Bundled audited matched WDI-PWT panel; rtfpna from PWT 11.0",
+  "measure": "100 * first difference of log(rtfpna), by economy-year",
+  "n_country_year_observations": 3867,
+  "n_economies": 119,
+  "years": [
+    1991,
+    2023
+  ],
+  "country_year_growth_mean": 0.21912196262227326,
+  "country_year_growth_median": 0.3126493341092572,
+  "country_year_growth_p10": -3.723706567079001,
+  "country_year_growth_p90": 4.160870684006799,
+  "warning": "Descriptive, unweighted, not causal; rtfpna is a national-price TFP index and this growth measure is distinct from a newly constructed Solow residual."
+}
